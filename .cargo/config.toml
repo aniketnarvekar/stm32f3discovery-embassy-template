@@ -1,8 +1,8 @@
 [target.'cfg(all(target_arch = "{{ arch }}", target_os = "none"))']
-runner = "probe-rs run --chip {{ probe_chip }}"
+runner = "gdb -q -x openocd.gdb"
 
 [build]
-target = "{{ rust_target }}"
+target = "thumbv7em-none-eabihf"
 
 [env]
 DEFMT_LOG = "info"
