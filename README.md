@@ -21,7 +21,7 @@ cargo generate --git https://github.com/aniketnarvekar/stm32f3discovery-embassy-
 ```
 
 ## References:
-[embassy-template](https://github.com/lulf/embassy-template)
-[cortex-m-quickstart](https://github.com/rust-embedded/cortex-m-quickstart)
-[Using GDB and DEFMT to debug embedded programs](https://ferrous-systems.com/blog/gdb-and-defmt/#defmt-print)
-[Embassy Book](https://embassy.dev/book/#_cargo_generate)
+- [embassy-template](https://github.com/lulf/embassy-template)
+- [cortex-m-quickstart](https://github.com/rust-embedded/cortex-m-quickstart)
+- [Using GDB and DEFMT to debug embedded programs](https://ferrous-systems.com/blog/gdb-and-defmt/#defmt-print)
+- [Embassy Book](https://embassy.dev/book/#_cargo_generate)
